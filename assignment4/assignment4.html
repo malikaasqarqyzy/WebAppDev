@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dice Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <img src="images/diceeLogo.png" alt="Dicee Logo">
+    <div class="game-container">
+        <h1>Dice Game</h1>
+        <div class="dice-images">
+            <img id="dice1" class="dice" src="images/dice1.png" alt="Dice 1">
+            <img id="dice2" class="dice" src="images/dice2.png" alt="Dice 2">
+        </div>
+        <button class="roll-button" onclick="rollDice()">Roll Dice</button>
+        <p id="sumDisplay" class="sum-display">Sum of Dice: </p>
+        <p id="rollCount" class="roll-count">Roll Count: </p>
+        <p id="winningMessage" class="winning-message">Can you roll doubles?</p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
