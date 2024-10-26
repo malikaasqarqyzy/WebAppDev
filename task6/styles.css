@@ -1,0 +1,50 @@
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  background-color: burlywood;
+}
+
+.music-player {
+  text-align: center;
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  width: 300px;
+}
+
+#track-cover {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.controls button {
+  padding: 10px 20px;
+  margin: 10px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: #fff;
+}
+
+.controls button:hover {
+  background-color: #0056b3;
+}
+
+#track-list {
+  list-style: none;
+  padding: 0;
+  margin: 20px;
+}
+
+#track-list li {
+  padding: 8px;
+  cursor: pointer;
+}
+
+#track-list li:hover {
+  background-color: #f0f0f0;
+}
